@@ -1,5 +1,11 @@
 import hardhatToolboxMochaEthersPlugin from "@nomicfoundation/hardhat-toolbox-mocha-ethers";
 import {configVariable, defineConfig} from "hardhat/config";
+import * as dotenv from "dotenv";
+
+dotenv.config();
+
+const CORE_RPC = process.env.CORE_RPC_URL || "https://rpc.test2.btcs.network";
+const CORE_PRIVATE_KEY = process.env.CORE_PRIVATE_KEY || "";
 
 export default defineConfig({
     plugins: [hardhatToolboxMochaEthersPlugin],
@@ -24,6 +30,13 @@ export default defineConfig({
         tests: "test"
     },
     networks: {
+        core_testnet2: {
+            url: CORE_RPC,
+            chainId: 1114,
+            accounts: CORE_PRIVATE_KEY ? [CORE_PRIVATE_KEY] : [],
+            type: "http",
+            gasPrice: "auto",
+        },
         hardhatMainnet: {
             type: "edr-simulated",
             chainType: "l1",

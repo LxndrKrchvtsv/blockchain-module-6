@@ -20,3 +20,7 @@
 /coverage
 
 .idea
+
+package-lock.json
+
+.env
