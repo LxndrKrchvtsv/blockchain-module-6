@@ -54,13 +54,13 @@ The contracts were deployed to **Core Blockchain Testnet 2**.
 ### 4.2. Verification Screenshots
 
 **1. Soulbound NFT in Explorer (Mint Transaction):**
-> *[INSERT SCREENSHOT OF ERC-721 MINT TX HERE]*
+> *![721.png](public/images/721.png)*
     
 **2. Game Collection Batch Mint in Explorer:**
-> *[INSERT SCREENSHOT OF ERC-1155 BATCH MINT TX HERE]*
+> *![1155.png](public/images/1155.png)*
 
 **3. NFT Metadata (JSON) in Browser:**
-> *[INSERT SCREENSHOT OF OPENED JSON FILE FROM BROWSER HERE]*
+> *![json.png](public/images/json.png)*
 
 ## 5. How to Run
 
