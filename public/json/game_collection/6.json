@@ -1,0 +1,19 @@
+{
+  "name": "Boris",
+  "description": "Just Boris Britva u know",
+  "image": "ipfs://bafkreie5rezqdop4tse24zxzlpt7gloae5jkseehape5znxaehcgohg6ja",
+  "attributes": [
+    {
+      "trait_type": "Class",
+      "value": "Warrior"
+    },
+    {
+      "trait_type": "Strength",
+      "value": 100
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

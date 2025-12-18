@@ -1,0 +1,19 @@
+{
+  "name": "Simba",
+  "description": "A brave warrior from the Dog Kingdom",
+  "image": "ipfs://bafkreidljpygyji43upuzpomj4zwkwkyavxye3avystmrcaz4scxc2lq3m",
+  "attributes": [
+    {
+      "trait_type": "Class",
+      "value": "Warrior"
+    },
+    {
+      "trait_type": "Strength",
+      "value": 100
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

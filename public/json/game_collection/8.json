@@ -1,0 +1,19 @@
+{
+  "name": "Maloy",
+  "description": "A young unexperienced warrior from the Cat Kingdom",
+  "image": "ipfs://bafkreibyyakra25fmyiiqduavsdtyu2s35kbulo355adm4esebtuzrqose",
+  "attributes": [
+    {
+      "trait_type": "Class",
+      "value": "Warrior"
+    },
+    {
+      "trait_type": "Strength",
+      "value": 100
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

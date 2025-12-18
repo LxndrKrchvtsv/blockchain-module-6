@@ -1,0 +1,19 @@
+{
+  "name": "Meysan",
+  "description": "A big black warrior from the Cat Kingdom",
+  "image": "ipfs://bafybeig3th42g7jof3yrs3sojapeeedyovqkypvudj7nez2z3glu7dfkqy",
+  "attributes": [
+    {
+      "trait_type": "Class",
+      "value": "Warrior"
+    },
+    {
+      "trait_type": "Strength",
+      "value": 100
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

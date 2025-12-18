@@ -1,0 +1,19 @@
+{
+  "name": "Eduard",
+  "description": "Eduard aka edik the fierce warrior from the Cat Kingdom",
+  "image": "ipfs://bafybeidnihmwb3ynklva3ywkkqklr5t3jc3vlgqgfn3jts4to5lckxn3ai",
+  "attributes": [
+    {
+      "trait_type": "Class",
+      "value": "Warrior"
+    },
+    {
+      "trait_type": "Strength",
+      "value": 100
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

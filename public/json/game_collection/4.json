@@ -1,0 +1,19 @@
+{
+  "name": "Pupa",
+  "description": "A dumb cat from the Cat Kingdom",
+  "image": "ipfs://bafkreibxebffj65ofin3bc4d5pj5nyo3lkpexxyj2dbcub5gk3rr3ftlry",
+  "attributes": [
+    {
+      "trait_type": "Class",
+      "value": "Warrior"
+    },
+    {
+      "trait_type": "Strength",
+      "value": 100
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Aleksandr Krichevtsov Student Visit Card",
+  "description": "Soulbound Identity Token for Aleksandr Krichevtsov",
+  "image": "ipfs://bafybeidhl5rqol35rqw7bfnptcrm257c55rdhe4xxfg3fv5d3f7zkcw4oy",
+  "attributes": [
+    {
+      "trait_type": "Student Name",
+      "value": "Aleksandr Krichevtsov"
+    },
+    {
+      "trait_type": "Student ID",
+      "value": "lxndrkrchvtsv"
+    },
+    {
+      "trait_type": "Course",
+      "value": "Frontend/Blockchain Engineering"
+    }
+  ]
+}

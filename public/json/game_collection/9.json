@@ -1,0 +1,19 @@
+{
+  "name": "Misha",
+  "description": "Mihail just Misha",
+  "image": "ipfs://bafkreicusgza3psk5ddbj62fk7wbzk6ymeoy5gdfuviegbm4srpxpkz7am",
+  "attributes": [
+    {
+      "trait_type": "Class",
+      "value": "Warrior"
+    },
+    {
+      "trait_type": "Strength",
+      "value": 100
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

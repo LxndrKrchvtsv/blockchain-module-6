@@ -1,0 +1,19 @@
+{
+  "name": "Eva",
+  "description": "A brave warrior from the Cat Kingdom",
+  "image": "ipfs://bafybeidsozne23fsmsc6ul73cfrgui5dx4iav67js7fj76236ipjrblpv4",
+  "attributes": [
+    {
+      "trait_type": "Class",
+      "value": "Warrior"
+    },
+    {
+      "trait_type": "Strength",
+      "value": 100
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

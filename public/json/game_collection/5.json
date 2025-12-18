@@ -1,0 +1,19 @@
+{
+  "name": "Valera",
+  "description": "A red cat from the Cat Kingdom",
+  "image": "ipfs://bafkreig5rerp2vkx3jn5zivavbo3lainjltmxhprldpuvluycsxxjowvgi",
+  "attributes": [
+    {
+      "trait_type": "Class",
+      "value": "Warrior"
+    },
+    {
+      "trait_type": "Strength",
+      "value": 100
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}
