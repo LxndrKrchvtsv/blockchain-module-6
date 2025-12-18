@@ -1,5 +1,7 @@
 import hre from "hardhat";
 
+const RECIPIENT_ADDRESS = "0x6a76c3f0c6798cbf841218fe0aee5ae8153c1822";
+
 async function main() {
     const connection = await hre.network.connect();
     const { ethers } = connection;
@@ -31,20 +33,18 @@ async function main() {
     let tokenV1 = MyTokenV1.attach(proxyAddress) as any;
 
     console.log("--- TESTING V1 ---");
-    console.log("Token Name:", await tokenV1.name()); // Должен вернуть "MyToken"
+    console.log("Token Name:", await tokenV1.name());
     console.log("Balance of deployer:", ethers.formatEther(await tokenV1.balanceOf(deployer.address)));
 
     // const randomUser = ethers.Wallet.createRandom();
-
-    const recipientAddress = "0x6a76c3f0c6798cbf841218fe0aee5ae8153c1822";
-    console.log(`Transferring 100 tokens to random user (${recipientAddress})...`);
+    console.log(`Transferring 100 tokens to Me user (${RECIPIENT_ADDRESS})...`);
     const transferAmount = ethers.parseEther("100");
 
-    const txTransfer = await tokenV1.transfer(recipientAddress, transferAmount);
+    const txTransfer = await tokenV1.transfer(RECIPIENT_ADDRESS, transferAmount);
     console.log("Transfer tx sent:", txTransfer.hash);
     await txTransfer.wait();
 
-    const recipientBalanceV1 = await tokenV1.balanceOf(recipientAddress);
+    const recipientBalanceV1 = await tokenV1.balanceOf(RECIPIENT_ADDRESS);
     console.log("Recipient Balance (V1):", ethers.formatEther(recipientBalanceV1));
 
     console.log("\n--- PREPARING UPGRADE ---");
@@ -65,7 +65,7 @@ async function main() {
 
     console.log("--- TESTING V2 ---");
 
-    const recipientBalanceV2 = await tokenV2.balanceOf(recipientAddress);
+    const recipientBalanceV2 = await tokenV2.balanceOf(RECIPIENT_ADDRESS);
     console.log("Recipient Balance after upgrade (V2):", ethers.formatEther(recipientBalanceV2));
 
     if (recipientBalanceV1 == recipientBalanceV2) {
